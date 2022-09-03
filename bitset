@@ -1,0 +1,59 @@
+bitset is used to deal with bits.
+
+def:-
+
+bitset<32> bset;
+
+offBeat:- 
+generally we do like
+#defing M 32
+
+offBeat :-
+traversal tech 
+for(auto it = vt.begin();it != vt.end(); it ++)
+cout<<*it<<" "'
+
+REM:- VT.BEGIN() ALWAYS RETURN ADDRESS
+
+bitset<M> bset;
+
+Convert 21 into bit of bit size 32
+
+bitset<32>bset(21);
+
+How to set particular bit
+Note :
+index counting start from left to right 
+but bit counting start from right to left
+
+bset[1]  = 1;
+
+if size of bit is 8 
+then setting 1st bit is same as setting index 6 
+
+SO RELATION IS BIT/INDEX = SIZE -1 - INDEX/BIT
+
+How to count total size of bit
+bset.size()
+
+How to count number of set bit
+bset.count()
+
+How to count number of unset bit
+bset.size() - bset.count()
+
+bset.any()  -> returns true if atleast any of the bit is set
+bset.none() -> returns true if none of the bit is set
+bset.test()  -> if set returns 1, else(bit not set) return 0
+bset.set()  ->  set all bit
+bset.set(4)  -> set bit pos 4 to 1 (by default)
+bset.set(4,0) -> set bit pos 4 to 0
+bset.reset() -> set all bit pos to 0
+bset.reset(2) -> set bit pos 2 to 0
+bset.flip()  -> alter the bit value for all bit pos
+bset.flip(2)  -> alter the bit value for bit pos 2
+
+
+
+
+
