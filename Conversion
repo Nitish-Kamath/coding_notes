@@ -35,5 +35,12 @@ binary to int(decimal) value
 string str = "10000001";
 auto it = stoi(str, 0, 2);
 
+off beat:-
+
+int gcd(int a, int b)
+{
+return b == 0 ? a: gcd(b,a%b);
+}
+
 
 
