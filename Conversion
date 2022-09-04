@@ -1,0 +1,39 @@
+convert following:- 
+
+string to int 
+int num = stoi("11");
+
+int to string 
+string str = to_string(11);
+
+string to char 
+char ch = str[i];
+
+char to string 
+string str;
+str = str + ch;
+
+int to char
+only if int lies in the range 0 to 9
+string str = to_string(num)
+char ch = str[0];
+if
+int val = 65;
+char ch = val;
+
+char to int
+char ch = 'A';
+int val = (int)ch;
+
+char into ascii value
+int val = ch - 'A';
+
+int to binary value
+bitset<8> bset(4);
+
+binary to int(decimal) value
+string str = "10000001";
+auto it = stoi(str, 0, 2);
+
+
+
